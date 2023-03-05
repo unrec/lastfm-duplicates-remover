@@ -24,14 +24,15 @@ dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test")
     testImplementation(group = "io.kotest", name = "kotest-assertions-core-jvm", version = "5.5.1")
 
-    implementation("org.jetbrains.kotlinx", "kotlinx-coroutines-core", Versions.COROUTINES)
-    implementation("ru.gildor.coroutines:kotlin-coroutines-okhttp:1.0")
-
-    implementation("com.squareup.okhttp3:okhttp:4.9.0")
+    implementation("org.seleniumhq.selenium:selenium-java:4.8.1")
 
     implementation("com.fasterxml.jackson.module", "jackson-module-kotlin", Versions.JACKSON)
     implementation("com.fasterxml.jackson.dataformat", "jackson-dataformat-csv", Versions.JACKSON)
     implementation("com.fasterxml.jackson.datatype", "jackson-datatype-jsr310", Versions.JACKSON)
+
+    implementation("io.github.microutils:kotlin-logging-jvm:3.0.5")
+    implementation("ch.qos.logback:logback-classic:1.4.5")
+    implementation("ch.qos.logback:logback-core:1.4.5")
 }
 
 application {
