@@ -12,11 +12,11 @@ Deleted tracks can be seen as if they were deleted by you manually:
 
 ### Usage
 Run the application **.jar** file and provide next parameters:
-- username (`--user`)
-- login (`--login`) (will not be stored or used somewhere else)
+- Last.fm username (`--user`)
+- Last.fm API token (`--token`) (will not be stored or used somewhere else)
 
 ```shell
-java -jar lastfm-duplicates-remover.jar --username %username% --login %login% --start-page 1818
+java -jar lastfm-duplicates-remover.jar --user %lastfm_user% --token %lastfm_api_token% --start-page 1818
 ```
 
 All deleted tracks can be found in `deleted_scrobbles.log` file:
