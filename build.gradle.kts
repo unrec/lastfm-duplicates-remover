@@ -24,7 +24,7 @@ dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test")
     testImplementation(group = "io.kotest", name = "kotest-assertions-core-jvm", version = "5.5.1")
 
-    implementation("org.seleniumhq.selenium:selenium-java:4.8.1")
+    implementation("org.seleniumhq.selenium:selenium-java:4.10.0")
 
     implementation("com.fasterxml.jackson.module", "jackson-module-kotlin", Versions.JACKSON)
     implementation("com.fasterxml.jackson.dataformat", "jackson-dataformat-csv", Versions.JACKSON)
