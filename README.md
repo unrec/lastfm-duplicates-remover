@@ -4,7 +4,7 @@
 At first, it makes sense to find if there are any duplicates in the library at all. You can use [lastfm-tracks-dumper](https://github.com/unrec/lastfm-tracks-dumper) or this [site](http://meaw.kagechiyo.net/web/RemoveDuplicatedTrack.eng.html). If you don't have too much duplicates, it's better to delete it manually by navigating the pages from the generated .csv file.
 
 ### Preconditions
-The app uses Selenium andChrome browser for deleting Last.fm tracks as currently there is no API for this operation.
+The app uses Selenium and Chrome browser for deleting Last.fm tracks as currently there is no API for this operation.
 Update your Chrome to the latest version and install corresponding [WebDriver](https://chromedriver.chromium.org/downloads).
 Deleted tracks can be seen as if they were deleted by you manually:
 
